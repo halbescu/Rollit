@@ -1,0 +1,16 @@
+name: Rollit
+version: '0.1'
+main: org.albescu.rollit.Rollit
+api-version: '1.21'
+authors: [ Hue Albescu ]
+
+commands:
+  roll:
+    description: Roll dice or something!
+    usage: /roll [n_dice]d[n_sides] <l/local>
+    permission: rollit.roll
+
+  reload:
+    description: Reload config
+    usage: /reload
+    permission: rollit.reload
